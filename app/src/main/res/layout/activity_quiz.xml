@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical" >
+
+    <!-- Question 1 -->
+
+    <TextView
+
+        style="@style/questionStyle"
+        android:text="1. The substrate of photo-respiration is:" />
+
+
+    <RadioGroup
+        android:id="@+id/num_one_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/FirstRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pyruvica acid"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/SecondRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="glucose"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/ThirdRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fructose"
+            android:textSize="16sp" />
+
+        <RadioButton
+
+            android:id="@+id/FourthRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="glycolate"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <!-- Question 2 -->
+
+    <TextView
+
+        style="@style/questionStyle"
+        android:text="2. Which of these Animal is Jawless?" />
+
+    <RadioGroup
+        android:id="@+id/num_two_radio_group"
+        style="@style/radioStyle">
+/>
+
+
+        <RadioButton
+            android:id="@+id/FifthRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shark"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/SixthRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Myxine"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/SeventhRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trygon"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/EightRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sphyrna"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <!-- Question 3 -->
+
+    <TextView
+
+        style="@style/questionStyle"
+        android:text="3. When was USA found?" />
+
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="Please enter your answer"
+        android:inputType="text"/>
+
+
+    <!-- Question 4 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. What are the bordering countries of Nepal?"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/indiaCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/chinaCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="China"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/japanCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japan"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/koreaCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16sp"
+        android:text="Korea"
+        android:textSize="16sp" />
+
+
+    <!-- Question 5 -->
+
+    <RadioGroup
+        android:id="@+id/num_five_radio_group"
+
+        style="@style/radioStyle"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit" />
+
+</LinearLayout>
+
+</ScrollView>
