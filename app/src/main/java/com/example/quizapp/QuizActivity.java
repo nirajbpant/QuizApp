@@ -68,7 +68,7 @@ public class QuizActivity extends AppCompatActivity {
                 }
 
             Intent intent = new Intent(QuizActivity.this, ScoreActivity.class);
-            intent.putExtra("SCORE", score+"/5");
+            intent.putExtra("SCORE", score+"/4");
             startActivity(intent);
 
             }
